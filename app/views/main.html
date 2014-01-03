@@ -1,9 +1,13 @@
-<div class="hero-unit">
-  <h1>'Allo, 'Allo!</h1>
-  <p>You now have</p>
-  <ul>
-      <li ng-repeat="thing in awesomeThings">{{thing}}</li>
-  </ul>
-  <p>installed.</p>
-  <h3>Enjoy coding! - Yeoman</h3>
-</div>
+ <form class="form-search" ng-submit="search()">
+ 	<div class="row form-group">
+ 		<div class="col-sm-8 col-sm-push-2">
+    		<input type="text" ng-model="credentials.email" class="input-block-level form-control" placeholder="infrastructure">
+		</div>
+    </div>
+    <div class="row form-group">
+    	<div class="col-sm-2 col-sm-push-5 ">
+    		<button class="btn btn-large btn-primary" type="submit">Search</button>
+        <button class="btn btn-large btn-primary" type="submit">Browse</button>
+    	</div>
+    </div>
+</form>

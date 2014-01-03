@@ -8,11 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <!-- build:css({.tmp,app}) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/app.css">
+        <link rel="stylesheet" href="bower_components/ng-table/ng-table.css">
         <!-- endbuild -->
 </head>
   <body ng-app="getRTIApp">
@@ -50,7 +52,7 @@
     </header>
 
     <!-- Add your site or application content here -->
-    <div class="container" ng-view=""></div>
+    <div class="container" role="main_container" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -61,17 +63,20 @@
     </script>
 
     <script src="bower_components/angular/angular.js"></script>
-
     <!-- build:js({.tmp,app}) scripts/scripts.js -->
 
+    <script src="bower_components/ng-table/ng-table.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="scripts/services/file_service.js"></script>
 
+    <!-- Services -->
+    <script src="scripts/services/file_service.js"></script>
+    <script src="scripts/services/authentication_service.js"></script>
+
+    <!-- Controllers -->
     <script src="scripts/controllers/main.js"></script>
     <script src="scripts/controllers/files.js"></script>
     <script src="scripts/controllers/login.js"></script>
     <script src="scripts/controllers/signup.js"></script>
-
 
 
     <!-- endbuild -->

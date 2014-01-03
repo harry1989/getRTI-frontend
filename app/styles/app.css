@@ -1,0 +1,16 @@
+.form-signin{
+    margin: 100px auto 0px;
+    max-width: 300px;
+    padding: 20px;
+}
+.form-search {
+	margin: 250px auto 0px;
+}
+
+[role="main_container"]
+{
+	margin-top: 50px;
+}
+.files-list-section {
+    border-right: 1px solid rgb(185, 170, 170);
+}
