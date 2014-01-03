@@ -1,0 +1,30 @@
+[
+	{
+		"name": "File 1",
+		"upload_date": "12/23/2013",
+		"status": "Published",
+		"tags" : ["education", "studies"],
+		"department": "education"
+	},
+	{
+		"name": "File 2",
+		"upload_date": "01/03/2013",
+		"status": "Published",
+		"tags" : ["bus", "train"],
+		"department": "Transport"
+	},
+	{
+		"name": "File 3",
+		"upload_date": "02/24/2012",
+		"status": "Published",
+		"tags" : ["water", "sewage"],
+		"department": "water"
+	},
+	{
+		"name": "File 4",
+		"upload_date": "10/04/2013",
+		"status": "Published",
+		"tags" : ["agriculture", "field"],
+		"department": "agri"
+	}
+]
