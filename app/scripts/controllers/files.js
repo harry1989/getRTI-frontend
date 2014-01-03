@@ -13,6 +13,5 @@ app.controller('FileCtrl', ['$scope', 'FileService', 'ngTableParams', function (
 		            $defer.resolve($scope.files.slice((params.page() - 1) * params.count(), params.page() * params.count()));
 	        }
     	});
-    	$scope.apply();
 	});
 }]);

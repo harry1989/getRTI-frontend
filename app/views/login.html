@@ -1,5 +1,5 @@
 <form class="form-signin" ng-submit="login()">
-    <h2 class="form-signin-heading">Please log in</h2>
+    <h4 class="form-signin-heading">Login</h4>
     <div class="form-group">
     	<input type="text" ng-model="credentials.email" class="input-block-level form-control" placeholder="Email address" required>
 	</div>
@@ -9,5 +9,8 @@
     <label class="checkbox">
       <input type="checkbox" value="remember-me" ng-model="credentials.remember"> Remember me
     </label>
-    <button class="btn btn-large btn-primary" type="submit">Log in</button>
+    <div class="row-fluid">
+        <button class="btn btn-large btn-primary pull-right" type="submit">Log in</button>
+        <button class="btn btn-large btn-primary" type="submit">Forgot password</button>
+    </div>
 </form>
